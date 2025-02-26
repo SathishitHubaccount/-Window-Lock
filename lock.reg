@@ -1,0 +1,7 @@
+
+[HKEY_CLASSES_ROOT\Directory\shell\LockFolder]
+@="Lock/Unlock Folder"
+"Icon"="C:\\Python313\\python.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\LockFolder\command]
+@="\"C:\\Python313\\python.exe\" \"path_to_your_lock.py_folder" \"%1\""

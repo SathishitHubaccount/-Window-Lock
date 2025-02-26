@@ -1,6 +1,9 @@
 # -Window-Lock
 **Window Lock** is a Python script that locks and unlocks folders on Windows using `icacls`, restricting access until a password is entered. It also adds a right-click menu option for quick folder security.
 
+# To use these option first add the option to the windows by running the lock.reg file 
+  Then you can see a option in your folder menu to lock and unlock 
+  You can change the password in the floder_lock.py file
 
 # Window Lock
 
@@ -21,4 +24,3 @@ Additionally, the project includes a Windows Registry file that adds **"Lock/Unl
 - Python 3.x installed
 - Administrative privileges to modify folder permissions
 - Registry modification permissions (for adding the context menu option)
-
